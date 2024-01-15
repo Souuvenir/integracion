@@ -10,21 +10,21 @@ public class Conexion {
 	Connection con;
 
     public Connection getConnection() {
-        try {
+       /* try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db", "root", "");
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace(); 
-        }
+        }*/
         return con;
     }
     public void closeConnection() {
-        try {
+        /*try {
             if (con != null && !con.isClosed()) {
                 con.close();
             }
         } catch (SQLException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }

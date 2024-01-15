@@ -4,20 +4,23 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Formulario de Inicio de SesiÃ³n</title>
+    <title>Formularion</title>
 </head>
 <body>
 
-    <h2>Iniciar SesiÃ³n</h2>
+    <h2>Login: </h2>
 
     <form action="Validator" method="post">
-        <label for="username">Usuario:</label>
+        <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br>
 
-        <label for="password">ContraseÃ±a:</label>
-        <input type="password" id="password" name="password" required><br>
+		<br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
 
-        <input type="submit" value="Iniciar SesiÃ³n">
+		<br>
+        <input id="buttonSubmit" type="submit" value="Iniciar sesion">
     </form>
 </body>
 </html>
